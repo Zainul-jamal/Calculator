@@ -1,0 +1,54 @@
+body{
+    width: 914px;
+    padding: 100px;
+    box-sizing: content-box;
+     background-image: linear-gradient(red, pink, orange);
+}
+
+.container{
+    box-shadow: 0px 2px 5px 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+    width: 250px;
+    margin: 10px;
+    background-color:rebeccapurple;
+}
+.button{
+    width: 48px;
+height: 50px;
+cursor: pointer;
+background-color: black;
+color: white;
+BORDER-RADIUS: 50PX;
+font-family: sans-serif;
+font-family: sans-serif;
+font-size: large;
+}
+.clearbtn{
+    width: 60px;
+    cursor: pointer;
+    height: 56px;
+    background-color: black;
+    color: rgb(45, 236, 16);
+    BORDER-RADIUS: 50PX;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: large;   
+}
+.input{
+    display: flex;
+    text-align: end;
+    margin: 20px 0px;
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+    color: black;
+    font-family: inherit;
+    font-size:40px;
+    margin: auto;
+    border-radius: 13px;
+
+}

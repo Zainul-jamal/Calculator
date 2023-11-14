@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    
+
+</style>
+
+</head>
+<body>
+
+    <h1 style="text-align: center;cursor: pointer;
+    margin: 20px;
+    box-shadow: 10px 5px 10px;
+    background-color: aqua;
+    color: black;
+    ">Using with HTML , CSS and J.S  
+    <button style="margin: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 30px;
+    " onclick="abc()" >Click Me</button> </h1>
+    <center>
+<div class="container">
+    <h1>Calculator</h1>
+    <div>
+        <input class="input" readonly type="text" id="inp">
+    </div>
+    <br>
+    <div>
+        <button class="button" onclick="dabaya(9)">9</button>
+        <button class="button" onclick="dabaya(8)">8</button>
+        <button class="button" onclick="dabaya(7)">7</button>
+        <button class="button" onclick="dabaya('%')">%</button>
+    </div>
+<br>
+    <div>
+        <button class="button" onclick="dabaya(4)">4</button>
+        <button class="button" onclick="dabaya(5)">5</button>
+        <button class="button" onclick="dabaya(6)">6</button>
+        <button class="button" onclick="dabaya('*')">*</button>
+    </div>
+    <br>
+    <div>
+        <button class="button" onclick="dabaya(1)">1</button>
+        <button class="button" onclick="dabaya(2)">2</button>
+        <button class="button" onclick="dabaya(3)">3</button>
+        <button class="button" onclick="dabaya('-')">-</button>
+    </div>
+    <br>
+    <div>
+        <button class="button" onclick="dabaya(0)">0</button>
+        <button class="button" onclick="eql()" >=</button>
+        <button class="button" onclick="dabaya('+')">+</button>
+        <button class="clearbtn" onclick="clr()" >A.C</button>
+    </div>
+</div>
+
+</center>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
